@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #map {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: 0;
+        }
+        #info {
+        	position: absolute;
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          background-color: rgba(0,0,0,0.2);
+          transition: 0.3s;
+        	top: 100px;
+          left: 700px;
+        	width: 25%;
+        	text-align: center;
+        	z-index: 100;
+        	display:block;
+        }
+        .container {
+          padding: 2px 16px;
+          display:block;
+        }
+    </style>
+</head>
+<body>
+  <div id="info">
+    <div class="container">
+      <h4><b>Empire State Building</b></h4>
+      <p>24th floor</p>
+    </div>
+  </div>
+
+<div id="map"></div>
+<script src="../jsm/old-browser-handler.js"></script>
+<script type="module" src="point2.ts"></script>
+</body>
+</html>

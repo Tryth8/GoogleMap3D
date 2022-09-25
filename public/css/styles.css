@@ -1,0 +1,91 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+body{
+    /*background-color: #A2A2D0;*/
+    font-family: Candara;
+    background-image: url("bak.jpg");
+    background-size: 119.9%;
+    background-repeat: repeat;
+}
+
+p, a, h1, h4{
+    color: #434B4D;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: white;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.navbar-brand1{
+  color: black;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: white;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+    color: #fff;
+}
+
+.activity-box{
+  max-width: 1000px;
+  border: solid;
+  height: 70px;
+   margin: 50px auto;
+   background: white;
+   border-radius: 5px;
+   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.activity-name{
+    text-align: center;
+}
+
+.btn{
+    height: 80px;
+    width: 400px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 370px;
+    border-radius: 35px;
+}
+
+.loginText{
+    font-size: 30px;
+}
+
+.loginEnter{
+    height: 40px;
+    width: 70px;
+    font-size:15px;
+    border-radius: 20px;
+}
+
+.rectangle {
+    height: 50px;
+    width: 100px;
+    background-color: #555;
+}
